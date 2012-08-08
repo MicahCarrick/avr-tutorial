@@ -16,8 +16,8 @@ T 45900 48700 5 10 0 0 0 0 1
 footprint=DIL28
 T 48086 48398 5 10 1 1 0 6 1
 refdes=U1
-T 47328 43759 5 10 1 1 0 0 1
-device=ATmega8
+T 46328 43759 5 10 1 1 0 0 1
+device=ATmega48/88/168/328
 }
 C 44500 49100 1 0 0 5V-plus-1.sym
 C 48700 45900 1 0 0 gnd-1.sym
@@ -50,7 +50,7 @@ device=RESISTOR
 T 44900 44400 5 10 1 1 0 0 1
 refdes=R2
 T 45000 43900 5 10 1 1 0 0 1
-value=1k
+value=470
 }
 C 43600 44000 1 0 0 led-1.sym
 {
