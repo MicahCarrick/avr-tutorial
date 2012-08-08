@@ -10,10 +10,7 @@ main (void)
     
     while(1) 
     {
-        PORTB |= _BV(PB0);
-        _delay_ms(500);
-        
-        PORTB &= ~_BV(PB0);                
+        PORTB ^= _BV(PB0);
         _delay_ms(500);
     }
 }

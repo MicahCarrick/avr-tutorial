@@ -1,6 +1,6 @@
 build
 #schematic#
 *.*~
-src/*.elf
-src/*.lst
-src/*.map
+*.elf
+*.lst
+*.map
